@@ -14,10 +14,10 @@ Bu uygulama, C# dilindeki **Sınıf (Class)** yapısını ve **Kullanıcı Etkil
 2. Visual Studio veya herhangi bir C# derleyicisi (VS Code + .NET SDK vb.) ile açın.
 3. `Program.cs` dosyasını derleyip çalıştırın.
 
-# C# Weather API - Canlı Hava Durumu Uygulaması
+## Proje 2:C# Weather API - Canlı Hava Durumu Uygulaması
 Bu uygulama, bir Bilgisayar Mühendisliği öğrencisi olarak C# dilinde **API entegrasyonu** ve **JSON veri işleme** konularını pratik etmek için geliştirdiğim bir projedir.
 
-## Özellikler
+### Özellikler
 * **Gerçek Zamanlı Veri:** OpenWeatherMap API kullanarak anlık hava durumu bilgilerini çeker.
 * **Hata Yönetimi:** Geçersiz şehir girişlerinde veya bağlantı sorunlarında kullanıcıyı bilgilendirir.
 * **Modern C# Yapısı:** `async/await` yapısı ile verimli bir asenkron çalışma sunar.
@@ -26,3 +26,18 @@ Bu uygulama, bir Bilgisayar Mühendisliği öğrencisi olarak C# dilinde **API e
 Projeyi çalıştırmadan önce bağımlılıkları yüklemeyi unutmayın:
 ```bash
 dotnet add package Newtonsoft.Json
+```
+## Proje 3: C# Smart Calculator - Geçmiş Kayıtlı Hesap Makinesi
+Bu proje, temel matematiksel işlemlerin ötesinde, verilerin kalıcılığını (Data Persistence) sağlamak amacıyla geliştirilmiş bir sistem aracıdır.
+
+### Proje Hakkında
+Klasik hesap makinelerinden farklı olarak, yapılan her başarılı işlemi tarih ve saat bilgisiyle birlikte `islem_gecmisi.txt` dosyasına otomatik olarak raporlar. 
+
+### Teknik Kazanımlar
+* **File System Access:** `System.IO` kütüphanesi ile dosya oluşturma ve üzerine veri ekleme (`AppendAllText`) işlemlerini uyguladım.
+* **Control Flow:** `while(true)` döngüsü ile kesintisiz bir kullanıcı deneyimi sağladım.
+* **Data Logging:** Yazılım dünyasında çok kritik olan "Log tutma" mantığını projeye entegre ettim.
+* **Date & Time:** `DateTime.Now` kullanarak sistem saatini dinamik olarak çektim.
+
+### Kullanım
+Programı çalıştırıp işlemlerinizi yapın. Program kapansa bile, aynı klasörde oluşan `.txt` dosyasından eski işlemlerinizi kontrol edebilirsiniz.
