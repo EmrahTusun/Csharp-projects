@@ -41,3 +41,18 @@ Klasik hesap makinelerinden farklı olarak, yapılan her başarılı işlemi tar
 
 ### Kullanım
 Programı çalıştırıp işlemlerinizi yapın. Program kapansa bile, aynı klasörde oluşan `.txt` dosyasından eski işlemlerinizi kontrol edebilirsiniz.
+
+## Proje4: C# Password Manager & Strength Checker
+Bu proje, temel veri girişi ve dosya yönetiminin ötesinde, kullanıcı güvenliğini ön planda tutan bir şifre yönetim aracıdır.
+### Proje Hakkında
+Uygulama, kullanıcının girdiği şifreleri belirli kriterlere (uzunluk, büyük harf, rakam, sembol) göre analiz eder ve bir güven puanı oluşturur. Ardından bu verileri tarih damgasıyla birlikte bir metin dosyasında arşivler.
+### Teknik Kazanımlar
+* **LINQ (Language Integrated Query):** Karakter dizileri içerisinde hızlı ve modern arama tekniklerini kullandım.
+* **Security Analysis:** Şifre karmaşıklığını ölçen bir algoritma tasarladım.
+* **File I/O:** Verilerin kalıcı olarak saklanması için dosya sistemini kullandım.
+* **Conditional Logic:** Skor tabanlı geri bildirim sistemini kurdum.
+
+### Nasıl Çalışır?
+1. Uygulama adını ve şifreyi girersiniz.
+2. Program şifrenizi analiz edip size % üzerinden bir puan verir.
+3. Sonuçlar `sifreler.txt` dosyasına "log" mantığıyla kaydedilir.
