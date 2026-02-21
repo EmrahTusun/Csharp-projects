@@ -46,3 +46,11 @@ Uygulama, kullanıcının girdiği şifreleri belirli kriterlere (uzunluk, büy�
 1. Uygulama adını ve şifreyi girersiniz.
 2. Program şifrenizi analiz edip size % üzerinden bir puan verir.
 3. Sonuçlar `sifreler.txt` dosyasına "log" mantığıyla kaydedilir.
+##  Proje5: JSON-Based Task Manager (Data Persistence)
+Bu proje, verilerin çalışma zamanı (runtime) dışında nasıl saklanacağını ve yönetileceğini (Persistent Data) anlamak amacıyla geliştirilmiştir.
+### Proje Hakkında
+Uygulama, klasik bir "To-Do List" mantığında çalışır ancak verileri bir veritabanı gibi **JSON** dosyasında saklar. Bu sayede program kapatılsa bile veriler kaybolmaz.
+### Teknik Kazanımlar
+* **JSON Serialization:** Nesneleri diskte saklanabilir metin formatına dönüştürme yeteneği kazandım.
+* **File I/O & Persistence:** Verilerin kalıcılığını sağlamak için dosya sistemini bir "Mini-DB" olarak kullandım.
+* **Collections (List<T>):** Dinamik veri listelerini yönetme ve filtreleme süreçlerini uyguladım.
